@@ -1,0 +1,93 @@
+
+      .divSide{
+        background-color: #e9ecef;
+        height: 100em;
+      }
+
+      .imageAlign{
+        float:left;
+        padding: 10px 20px 5px 5px;
+
+      }
+
+      .imageText{
+        padding-right: 10px;
+      }
+
+
+    .navbar-fixed-left {
+        width: 140px;
+        position: fixed;
+        border-radius: 0;
+        height: 100%;
+      }
+
+    .navbar-fixed-left .navbar-nav > li {
+      float: none;  /* Cancel default li float: left */
+      width: 139px;
+    }
+
+    /* float clearing for IE6 */
+     .clearfix{
+      height: 1%;
+      overflow: visible;
+    }
+     
+    /* float clearing for IE7 */
+     .clearfix{
+      min-height: 1%;
+    }
+     
+    /* float clearing for everyone else */
+    .clearfix:after{
+      clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      visibility: hidden;
+      font-size: 0;
+    }
+
+
+    
+
+    body{
+      overflow-x:hidden;
+      font-size: 12pt;
+    }
+
+    footer
+    {width:25px;
+      display:inline;
+      text-align: center;
+      background-color: black;}
+
+    .divContainer
+    {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .imgAlign
+    {
+      float:left;
+      padding: 10px 20px 10px 0px;
+    }
+
+    .divMargin
+    {
+      padding-left:20px;
+    }
+    .divContact
+    {
+      height: 120px;
+      text-align: center;
+    }
+
+    .contactContent
+    {
+      text-align: center;
+      padding:20px;
+    }
+
+     
